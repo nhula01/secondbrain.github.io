@@ -16,5 +16,31 @@
       <description>This is something
 &amp;lsquo;&amp;lsquo;&amp;lsquo;python for i in x: &amp;rsquo;&amp;rsquo;&amp;rsquo;</description>
     </item>
+    <item>
+      <title>deutsch</title>
+      <link>https://nhula01.github.io/secondbrain.github.io/posts/20240224143415-deutsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/posts/20240224143415-deutsch/</guid>
+      <description>Deutsch&amp;rsquo;s Problem \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&amp;rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&amp;rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :</description>
+    </item>
+    <item>
+      <title>Deutsch&#39;s Problem</title>
+      <link>https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/</guid>
+      <description>\documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&amp;rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&amp;rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :</description>
+    </item>
   </channel>
 </rss>

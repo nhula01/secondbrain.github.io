@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Deutsch&#39;s Problem | Second Brain</title>
+<meta name="keywords" content="">
+<meta name="description" content="\documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :">
+<meta name="author" content="DESKTOP-PNLN52S">
+<link rel="canonical" href="https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/">
+<link crossorigin="anonymous" href="/secondbrain.github.io/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://nhula01.github.io/secondbrain.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nhula01.github.io/secondbrain.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nhula01.github.io/secondbrain.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nhula01.github.io/secondbrain.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nhula01.github.io/secondbrain.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Deutsch&#39;s Problem" />
+<meta property="og:description" content="\documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/" /><meta property="article:section" content="posts" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Deutsch&#39;s Problem"/>
+<meta name="twitter:description" content="\documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://nhula01.github.io/secondbrain.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Deutsch's Problem",
+      "item": "https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Deutsch's Problem",
+  "name": "Deutsch\u0027s Problem",
+  "description": "\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch\u0026rsquo;s algorithm solves the parity problem for \\(n=1\\).\nDeutsch\u0026rsquo;s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :",
+  "keywords": [
+    
+  ],
+  "articleBody": "\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch’s algorithm solves the parity problem for \\(n=1\\).\nDeutsch’s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :\n…\nThe initial state is \\(\\ket{0}\\ket{1}\\), by applying two hadamard gates:\n\\begin{align*} H \\otimes H \\ket{1} \\ket{0} \u0026= \\ket{-} \\ket{+} \\\\ \u0026= \\frac{1}{\\sqrt{2}}(\\ket{0} + \\ket{1}) \\frac{1}{2}(\\ket{0} - \\ket{1}) \\\\ \u0026= \\frac{1}{2}(\\ket{0} - \\ket{1}) \\ket{0} + \\frac{1}{2}(\\ket{0} - \\ket{1})\\ket{1} \u0026= \\ket{\\psi_1} \\end{align*}\n$ \\ket{\\psi_1} \\ket{\\psi_2}$\nNext, we apply the \\(U_f\\) gate: and we can as well utilize this expression $ \\ket{0 \\otimes a} - \\ket{1 \\otimes a} = (-1)^a (\\ket{0} - \\ket{1})$\n\\begin{align*} U_f \\ket{\\psi_1} \u0026= \\frac{1}{2}(\\ket{0 \\otimes f(0)} - \\ket{1 \\otimes f(0)})\\ket{0}\n\\frac{1}{2}(\\ket{0 \\otimes f(0) - \\ket{1 \\otimes f(1)}})\\ket{1} \\\\ \u0026= \\frac{1}{2}(-1)^{f(0)}(\\ket{0} - \\ket{1})\\ket{0} \\frac{1}{2}(-1)^{f(1)}(\\ket{0} - \\ket{1})\\ket{1} \\\\ \u0026= \\ket{-} \\left( \\frac{(-1)^{f(0)} \\ket{0} + (-1)^{f(1)} \\ket{1}}{\\sqrt{2}} \\right) \\end{align*} A phase kickback happened here: learn more at\nSo finally, we obtained\n\\begin{align*} \\ket{\\psi_2} \u0026= (-1)^{f(0)}\\ket{-} \\left( \\frac{\\ket{0} + (-1)^{f(0) \\otimes f(1)}\\ket{1}}{\\sqrt{2}} \\right) \\\\ \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{+} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{-} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\nAfter applying the hadamard again, we obtain the final solution:\n\\begin{align*} \\ket{\\psi_3} \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{0} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{1} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\n",
+  "wordCount" : "262",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "DESKTOP-PNLN52S"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Second Brain",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nhula01.github.io/secondbrain.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://nhula01.github.io/secondbrain.github.io/" accesskey="h" title="Second Brain (Alt + H)">Second Brain</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Deutsch&#39;s Problem
+    </h1>
+    <div class="post-meta">DESKTOP-PNLN52S
+
+</div>
+  </header> 
+  <div class="post-content"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{article}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
+</span></span><span style="display:flex;"><span>Hello, LaTeX!
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">$</span>n \in x<span style="color:#e6db74">$</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
+</span></span></code></pre></div><div class="LaTeX">
+<p>\section{Introduction}
+This is LaTeX content directly within Org mode. You can write your LaTeX code here.</p>
+<p>\begin{equation}
+E = mc^2
+\end{equation}</p>
+</div>
+<p>Learn about the query here:
+Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).</p>
+<p>Deutsch&rsquo;s problem:</p>
+<p>Input: a function \( f:\{0,1\} \to \{0,1\} \)</p>
+<p>Output: 0 if f is constant, 1 if f is balanced</p>
+<p>The quantum circuit looks like this :</p>
+<p>&hellip;</p>
+<p>The initial state is \(\ket{0}\ket{1}\), by applying two hadamard gates:</p>
+<p>\begin{align*}
+H \otimes H \ket{1} \ket{0} &amp;= \ket{-} \ket{+} \\
+&amp;= \frac{1}{\sqrt{2}}(\ket{0} + \ket{1}) \frac{1}{2}(\ket{0} - \ket{1}) \\
+&amp;= \frac{1}{2}(\ket{0} - \ket{1}) \ket{0} + \frac{1}{2}(\ket{0} - \ket{1})\ket{1}
+&amp;= \ket{\psi_1}
+\end{align*}</p>
+<p>$ \ket{\psi_1} \ket{\psi_2}$</p>
+<p>Next, we apply the \(U_f\) gate:
+and we can as well utilize this expression
+$ \ket{0 \otimes a} - \ket{1 \otimes a} = (-1)^a (\ket{0} - \ket{1})$</p>
+<p>\begin{align*}
+U_f  \ket{\psi_1}
+&amp;= \frac{1}{2}(\ket{0 \otimes f(0)} - \ket{1 \otimes f(0)})\ket{0}</p>
+<ul>
+<li>\frac{1}{2}(\ket{0 \otimes f(0) - \ket{1 \otimes f(1)}})\ket{1} \\
+&amp;= \frac{1}{2}(-1)^{f(0)}(\ket{0} - \ket{1})\ket{0}</li>
+<li>\frac{1}{2}(-1)^{f(1)}(\ket{0} - \ket{1})\ket{1} \\
+&amp;= \ket{-} \left( \frac{(-1)^{f(0)} \ket{0} + (-1)^{f(1)} \ket{1}}{\sqrt{2}} \right)
+\end{align*}</li>
+</ul>
+<p>A phase kickback happened here: learn more at</p>
+<p>So finally, we obtained</p>
+<p>\begin{align*}
+\ket{\psi_2} &amp;= (-1)^{f(0)}\ket{-} \left( \frac{\ket{0} + (-1)^{f(0) \otimes f(1)}\ket{1}}{\sqrt{2}} \right) \\
+&amp;=
+\begin{cases}
+(-1)^{f(0)} \ket{-} \ket{+} \quad \text{if} f(0) \otimes f(1) = 0\\
+(-1)^{f(0)} \ket{-} \ket{-} \quad \text{if} f(0) \otimes f(1) = 1
+\end{cases}
+\end{align*}</p>
+<p>After applying the hadamard again, we obtain the final solution:</p>
+<p>\begin{align*}
+\ket{\psi_3} &amp;=
+\begin{cases}
+(-1)^{f(0)} \ket{-} \ket{0} \quad \text{if} f(0) \otimes f(1) = 0\\
+(-1)^{f(0)} \ket{-} \ket{1} \quad \text{if} f(0) \otimes f(1) = 1
+\end{cases}
+\end{align*}</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://nhula01.github.io/secondbrain.github.io/">Second Brain</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

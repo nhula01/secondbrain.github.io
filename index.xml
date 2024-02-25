@@ -16,5 +16,69 @@
       <description>This is something
 &amp;lsquo;&amp;lsquo;&amp;lsquo;python for i in x: &amp;rsquo;&amp;rsquo;&amp;rsquo;</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://nhula01.github.io/secondbrain.github.io/20240224140052-query/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/20240224140052-query/</guid>
+      <description>query Query Problem The computational model is usually built as
+input -&amp;gt; computation -&amp;gt; output
+For query model, the input is not provided to the computation. The input is a function that the computation acceses by making queries. (random access to the input)
+input
+computation —&amp;gt; output
+Since the input is hidden (oracle/blackbox), only by asking the information of the input could be revealed.
+For a funcion $f: \sum^n-&amp;gt; \sum^m$. When the query $x\in \sum^n$ is made by a computation, a value $f(x) \in \sum^m$ is made available.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://nhula01.github.io/secondbrain.github.io/20240224143415-deutsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/20240224143415-deutsch/</guid>
+      <description>deutsch Deutsch&amp;#39;s Problem \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} §ion{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation} Learn about the query here: Deustch&amp;#39;s algorithm solves the parity problem for \(n=1\).
+Deutsch&amp;#39;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :</description>
+    </item>
+    <item>
+      <title>deutsch</title>
+      <link>https://nhula01.github.io/secondbrain.github.io/posts/20240224143415-deutsch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/posts/20240224143415-deutsch/</guid>
+      <description>Deutsch&amp;rsquo;s Problem \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&amp;rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&amp;rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :</description>
+    </item>
+    <item>
+      <title>Deutsch&#39;s Problem</title>
+      <link>https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/posts/deutsch_problem/</guid>
+      <description>\documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
+\begin{equation} E = mc^2 \end{equation}
+Learn about the query here: Deustch&amp;rsquo;s algorithm solves the parity problem for \(n=1\).
+Deutsch&amp;rsquo;s problem:
+Input: a function \( f:\{0,1\} \to \{0,1\} \)
+Output: 0 if f is constant, 1 if f is balanced
+The quantum circuit looks like this :</description>
+    </item>
+    <item>
+      <title>Query Problem</title>
+      <link>https://nhula01.github.io/secondbrain.github.io/content/posts/query_problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhula01.github.io/secondbrain.github.io/content/posts/query_problem/</guid>
+      <description>The computational model is usually built as
+input -&amp;gt; computation -&amp;gt; output
+For query model, the input is not provided to the computation. The input is a function that the computation acceses by making queries. (random access to the input)
+input
+computation &amp;mdash;&amp;gt; output
+Since the input is hidden (oracle/blackbox), only by asking the information of the input could be revealed.
+For a funcion \(f: \sum^n-&amp;gt; \sum^m\). When the query \(x\in \sum^n\) is made by a computation, a value \(f(x) \in \sum^m\) is made available.</description>
+    </item>
   </channel>
 </rss>
