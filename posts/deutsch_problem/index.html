@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>Deutsch&#39;s Problem | Second Brain</title>
 <meta name="keywords" content="">
-<meta name="description" content="Look at Query Problem
+<meta name="description" content="Look at Query Gate
 \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
 \begin{equation} E = mc^2 \end{equation}
 Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
@@ -63,7 +63,7 @@ The quantum circuit looks like this :">
 
     </style>
 </noscript><meta property="og:title" content="Deutsch&#39;s Problem" />
-<meta property="og:description" content="Look at Query Problem
+<meta property="og:description" content="Look at Query Gate
 \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
 \begin{equation} E = mc^2 \end{equation}
 Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
@@ -78,7 +78,7 @@ The quantum circuit looks like this :" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Deutsch&#39;s Problem"/>
-<meta name="twitter:description" content="Look at Query Problem
+<meta name="twitter:description" content="Look at Query Gate
 \documentclass{article} \begin{document} Hello, LaTeX! $n \in x$ \end{document} \section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.
 \begin{equation} E = mc^2 \end{equation}
 Learn about the query here: Deustch&rsquo;s algorithm solves the parity problem for \(n=1\).
@@ -114,11 +114,11 @@ The quantum circuit looks like this :"/>
   "@type": "BlogPosting",
   "headline": "Deutsch's Problem",
   "name": "Deutsch\u0027s Problem",
-  "description": "Look at Query Problem\n\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch\u0026rsquo;s algorithm solves the parity problem for \\(n=1\\).\nDeutsch\u0026rsquo;s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :",
+  "description": "Look at Query Gate\n\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch\u0026rsquo;s algorithm solves the parity problem for \\(n=1\\).\nDeutsch\u0026rsquo;s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :",
   "keywords": [
     
   ],
-  "articleBody": "Look at Query Problem\n\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch’s algorithm solves the parity problem for \\(n=1\\).\nDeutsch’s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :\n…\nThe initial state is \\(\\ket{0}\\ket{1}\\), by applying two hadamard gates:\n\\begin{align*} H \\otimes H \\ket{1} \\ket{0} \u0026= \\ket{-} \\ket{+} \\\\ \u0026= \\frac{1}{\\sqrt{2}}(\\ket{0} + \\ket{1}) \\frac{1}{2}(\\ket{0} - \\ket{1}) \\\\ \u0026= \\frac{1}{2}(\\ket{0} - \\ket{1}) \\ket{0} + \\frac{1}{2}(\\ket{0} - \\ket{1})\\ket{1} \u0026= \\ket{\\psi_1} \\end{align*}\n$ \\ket{\\psi_1} \\ket{\\psi_2}$\nNext, we apply the \\(U_f\\) gate: and we can as well utilize this expression $ \\ket{0 \\otimes a} - \\ket{1 \\otimes a} = (-1)^a (\\ket{0} - \\ket{1})$\n\\begin{align*} U_f \\ket{\\psi_1} \u0026= \\frac{1}{2}(\\ket{0 \\otimes f(0)} - \\ket{1 \\otimes f(0)})\\ket{0}\n\\frac{1}{2}(\\ket{0 \\otimes f(0) - \\ket{1 \\otimes f(1)}})\\ket{1} \\\\ \u0026= \\frac{1}{2}(-1)^{f(0)}(\\ket{0} - \\ket{1})\\ket{0} \\frac{1}{2}(-1)^{f(1)}(\\ket{0} - \\ket{1})\\ket{1} \\\\ \u0026= \\ket{-} \\left( \\frac{(-1)^{f(0)} \\ket{0} + (-1)^{f(1)} \\ket{1}}{\\sqrt{2}} \\right) \\end{align*} A phase kickback happened here: learn more at\nSo finally, we obtained\n\\begin{align*} \\ket{\\psi_2} \u0026= (-1)^{f(0)}\\ket{-} \\left( \\frac{\\ket{0} + (-1)^{f(0) \\otimes f(1)}\\ket{1}}{\\sqrt{2}} \\right) \\\\ \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{+} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{-} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\nAfter applying the hadamard again, we obtain the final solution:\n\\begin{align*} \\ket{\\psi_3} \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{0} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{1} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\n",
+  "articleBody": "Look at Query Gate\n\\documentclass{article} \\begin{document} Hello, LaTeX! $n \\in x$ \\end{document} \\section{Introduction} This is LaTeX content directly within Org mode. You can write your LaTeX code here.\n\\begin{equation} E = mc^2 \\end{equation}\nLearn about the query here: Deustch’s algorithm solves the parity problem for \\(n=1\\).\nDeutsch’s problem:\nInput: a function \\( f:\\{0,1\\} \\to \\{0,1\\} \\)\nOutput: 0 if f is constant, 1 if f is balanced\nThe quantum circuit looks like this :\n…\nThe initial state is \\(\\ket{0}\\ket{1}\\), by applying two hadamard gates:\n\\begin{align*} H \\otimes H \\ket{1} \\ket{0} \u0026= \\ket{-} \\ket{+} \\\\ \u0026= \\frac{1}{\\sqrt{2}}(\\ket{0} + \\ket{1}) \\frac{1}{2}(\\ket{0} - \\ket{1}) \\\\ \u0026= \\frac{1}{2}(\\ket{0} - \\ket{1}) \\ket{0} + \\frac{1}{2}(\\ket{0} - \\ket{1})\\ket{1} \u0026= \\ket{\\psi_1} \\end{align*}\n$ \\ket{\\psi_1} \\ket{\\psi_2}$\nNext, we apply the \\(U_f\\) gate: and we can as well utilize this expression $ \\ket{0 \\otimes a} - \\ket{1 \\otimes a} = (-1)^a (\\ket{0} - \\ket{1})$\n\\begin{align*} U_f \\ket{\\psi_1} \u0026= \\frac{1}{2}(\\ket{0 \\otimes f(0)} - \\ket{1 \\otimes f(0)})\\ket{0}\n\\frac{1}{2}(\\ket{0 \\otimes f(0) - \\ket{1 \\otimes f(1)}})\\ket{1} \\\\ \u0026= \\frac{1}{2}(-1)^{f(0)}(\\ket{0} - \\ket{1})\\ket{0} \\frac{1}{2}(-1)^{f(1)}(\\ket{0} - \\ket{1})\\ket{1} \\\\ \u0026= \\ket{-} \\left( \\frac{(-1)^{f(0)} \\ket{0} + (-1)^{f(1)} \\ket{1}}{\\sqrt{2}} \\right) \\end{align*} A phase kickback happened here: learn more at\nSo finally, we obtained\n\\begin{align*} \\ket{\\psi_2} \u0026= (-1)^{f(0)}\\ket{-} \\left( \\frac{\\ket{0} + (-1)^{f(0) \\otimes f(1)}\\ket{1}}{\\sqrt{2}} \\right) \\\\ \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{+} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{-} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\nAfter applying the hadamard again, we obtain the final solution:\n\\begin{align*} \\ket{\\psi_3} \u0026= \\begin{cases} (-1)^{f(0)} \\ket{-} \\ket{0} \\quad \\text{if} f(0) \\otimes f(1) = 0\\\\ (-1)^{f(0)} \\ket{-} \\ket{1} \\quad \\text{if} f(0) \\otimes f(1) = 1 \\end{cases} \\end{align*}\n",
   "wordCount" : "266",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
@@ -200,7 +200,7 @@ The quantum circuit looks like this :"/>
 
 </div>
   </header> 
-  <div class="post-content"><p>Look at <a href="#d41d8c">Query Problem</a></p>
+  <div class="post-content"><p>Look at <a href="#d41d8c">Query Gate</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{article}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
 </span></span><span style="display:flex;"><span>Hello, LaTeX!
