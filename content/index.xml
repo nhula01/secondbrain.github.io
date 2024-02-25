@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Contents on Second Brain</title>
-    <link>https://nhula01.github.io/secondbrain.github.io/content/</link>
+    <link>http://localhost:1313/secondbrain.github.io/content/</link>
     <description>Recent content in Contents on Second Brain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://nhula01.github.io/secondbrain.github.io/content/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/secondbrain.github.io/content/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Query Problem</title>
-      <link>https://nhula01.github.io/secondbrain.github.io/content/posts/query_problem/</link>
+      <link>http://localhost:1313/secondbrain.github.io/content/posts/query_problem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nhula01.github.io/secondbrain.github.io/content/posts/query_problem/</guid>
+      <guid>http://localhost:1313/secondbrain.github.io/content/posts/query_problem/</guid>
       <description>The computational model is usually built as
 input -&amp;gt; computation -&amp;gt; output
 For query model, the input is not provided to the computation. The input is a function that the computation acceses by making queries. (random access to the input)
